@@ -59,5 +59,5 @@ app.post('/slack/message', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Slack bot listening on port ${port}`);
+  console.log(`Slack bot is listening on port ${port}`);
 });
